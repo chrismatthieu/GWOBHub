@@ -1,9 +1,9 @@
 AhnHub.com
 ==========
 
-AhnHub is a Github-based site for sharing Adhearsion components with the greater Adhearsion community.
+GWOBHub is a Github-based site for sharing GWOB applications with the greater GWOB community.
 
-When you create a new Adhearsion component and upload it to Github, notifying AhnHub of your component is as simple as making `http://ahnhub.com` a post-receive hook for the repository. When you commit to the project, Github will POST information about your repository to AhnHub. Thanks to Github, Ahnhub will always be up to date.
+When you create a new GWOB app and upload it to Github, notifying GWOBHub of your app is as simple as making `http://gwob.heroku.com` a post-receive hook for the repository. When you commit to the project, Github will POST information about your repository to GWOBHub. Thanks to Github, GWOBHub will always be up to date.
 
 Generating fake development data
 ----------
@@ -18,7 +18,7 @@ This will create a bunch of sample components (with silly, randomly-generated de
 
 LICENSE
 -------
-Copyright (c) 2010 Chris Matthieu, Ben Klang, Jay Phillips
+Copyright (c) 2010 Chris Matthieu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
