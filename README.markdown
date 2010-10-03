@@ -1,4 +1,4 @@
-AhnHub.com
+GWOBHub
 ==========
 
 GWOBHub is a Github-based site for sharing GWOB applications with the greater GWOB community.

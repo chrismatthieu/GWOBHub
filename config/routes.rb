@@ -1,4 +1,4 @@
-Ahnhub::Application.routes.draw do
+Gwobhub::Application.routes.draw do
 
   # map.github_post_receive_hook '/', :controller => 'repositories',
   #                                   :action => 'github_post_receive_hook',

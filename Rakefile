@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Ahnhub::Application.load_tasks
+Gwobhub::Application.load_tasks
