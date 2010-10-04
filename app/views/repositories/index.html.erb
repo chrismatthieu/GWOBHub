@@ -36,7 +36,10 @@
 				<% repository.commits.each do |commit| %>
 				<tr>
 					<td>
-						<%= '> Updated at ' + link_to(commit.created_at.to_s, raw(commit.url)) + ' by ' + link_to(commit.authorname, raw('http://github.com/' + h(commit.authorname))) + ' - "' + commit.message + '"' rescue "" %>
+						Updated at <a href="<%=commit.url%>"><%=commit.created_at.to_s%></a> 
+						by <a href="http://github.com/<%=commit.authorname%>"><%=commit.authorname%></a>
+						- <%=commit.message%>
+						<%# '> Updated at ' + link_to(commit.created_at.to_s, raw(commit.url)) + ' by ' + link_to(commit.authorname, raw('http://github.com/' + h(commit.authorname))) + ' - "' + commit.message + '"' rescue "" %>
 					</td>
 				</tr>
 				<% end %>
